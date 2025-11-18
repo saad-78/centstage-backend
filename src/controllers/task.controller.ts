@@ -1,4 +1,4 @@
-import { Request, Response, NextFunction } from 'express';
+import { Request, Response, NextFunction } from "express";
 import { taskService, TaskStatus } from '../services/task.service';
 
 const parseId = (req: Request): number => {
